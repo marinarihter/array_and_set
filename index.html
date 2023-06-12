@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Set vs Array</title>
+      <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="src/styles.css" />    
+  </head>
+  <body>
+    <div class="container">
+      <h1>Array vs Set</h1>
+      <p>To realise the difference between arrays and sets please add the same emojis by clicking "ADD" below. 
+            Please insure that the text in the input is also same if you want to see effect.</p> 
+            
+      <p class ="important">Same emoji + different text = different input!</p>
+      <div class="output">
+        <div class="array">
+          <h2>Typical Array</h2>
+          <div class="emoji-list array-list"></div>
+        </div>
+        <div class="set">
+          <h2>Typical Set</h2>
+          <div class="emoji-list set-list"></div>
+        </div>
+      </div> 
+      <div class="input">
+          <input type="text" class="internal-input" />
+          <button class="btn">ADD</button>
+      </div>
+    </div>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
